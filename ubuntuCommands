@@ -1,0 +1,10 @@
+cd final_work/
+  cat > pets
+  nano pets
+  cat > pack
+  nano pack
+  cat pets pack > humanFrends
+  nano humanFrends
+  mkdir HF
+  ls -al
+  mv humanFrends HF/
