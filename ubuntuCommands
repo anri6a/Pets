@@ -9,3 +9,13 @@ cd final_work/
   ls -al
   mv humanFrends HF/
 
+sudo apt update
+db@gb-linux:~$ wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+db@gb-linux:~$ sudo apt install ./mysql-apt-config_0.8.12-1_all.deb –y
+sudo su
+apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
+mysql_secure_installation
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+dpkg -S /usr/bin/google-chrome-stable
+dpkg --purge google-chrome-stable
