@@ -5,6 +5,7 @@ import models.Animal;
 import java.util.ArrayList;
 
 
+
 public interface Model {
 
 

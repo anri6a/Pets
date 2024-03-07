@@ -5,6 +5,7 @@ import models.Animal;
 import java.util.ArrayList;
 import java.util.Collection;
 
+
 public class AnimalPresenter implements ViewObserver {
     private final Model animalServserse;
 

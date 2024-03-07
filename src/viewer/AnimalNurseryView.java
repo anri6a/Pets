@@ -7,6 +7,7 @@ import presenter.ViewObserver;
 import java.util.ArrayList;
 import java.util.Collection;
 
+
 public class AnimalNurseryView implements View {
 
     private ViewObserver observer;
